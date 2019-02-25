@@ -1,0 +1,53 @@
+@tailwind preflight;
+
+@tailwind components;
+
+@font-face {
+    font-family: sourceSansBlack;
+    src: url('./fonts/SourceSansPro-Black.ttf');
+  }
+
+  @font-face {
+    font-family: sourceSansBold;
+    src: url('./fonts/SourceSansPro-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: sourceSansLight;
+    src: url('./fonts/SourceSansPro-Light.ttf');
+  }
+
+  @font-face {
+    font-family: sourceSansSemiBold;
+    src: url('./fonts/SourceSansPro-Semibold.ttf');
+  }
+
+  @font-face {
+    font-family: sourceSansRegular;
+    src: url('./fonts/SourceSansPro-Regular.ttf');
+  }
+
+
+
+.font-britehouse-black{
+      font-family: 'sourceSansBlack',sans-serif
+  }
+
+  .font-britehouse{
+    font-family: 'sourceSansRegular',sans-serif
+}
+
+.font-britehouse-bold{
+    font-family: 'sourceSansBold',sans-serif
+}
+.font-britehouse-light{
+    font-family: 'sourceSanLight',sans-serif
+}
+.font-britehouse-semiBold{
+    font-family: 'sourceSansSemiBold',sans-serif
+}
+
+
+
+@tailwind utilities;
+
